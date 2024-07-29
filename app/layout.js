@@ -2,7 +2,7 @@ import { Outfit } from "next/font/google";
 import "./globals.css";
 import { ClerkProvider } from "@clerk/nextjs";
 import { Toaster } from "@/components/ui/sonner";
-import { ThemeProvider } from "@/components/theme-provider"
+
 
 const inter = Outfit({ subsets: ["latin"] });
 
@@ -17,14 +17,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
       <Toaster />
-      <ThemeProvider
-            attribute="class"
-            defaultTheme="system"
-            enableSystem
-            disableTransitionOnChange
-          >
+     
       {children}
-      </ThemeProvider>
+     
       
       </body>
     </html>
