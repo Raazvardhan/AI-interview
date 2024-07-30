@@ -22,7 +22,7 @@ AI Interview Coach is a Full Stack mock interview application designed to help u
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/AI-Interview-Coach.git
+   git clone https://github.com/Raazvardhan/AI-interview.git
    ```
 
 2. Install dependencies:
