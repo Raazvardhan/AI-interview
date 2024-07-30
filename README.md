@@ -28,7 +28,7 @@ AI Interview Coach is a Full Stack mock interview application designed to help u
 2. Install dependencies:
 
    ```bash
-   cd AI-Interview-Coach
+   cd AI-interview
    npm install
    ```
 
