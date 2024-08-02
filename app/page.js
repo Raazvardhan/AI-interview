@@ -23,7 +23,9 @@ export default function Home() {
               <Button>
                 <a href="/dashboard">Get Started</a>
               </Button>
-              <Button variant="outline" className="text-blue-500 px-6 py-3 rounded-full">How it Works →</Button>
+              <Button variant="outline" className="text-blue-500 px-6 py-3 rounded-full">
+              <a href="/how"> 
+              How it Works →</a></Button>
             </div>
           </div>
           
